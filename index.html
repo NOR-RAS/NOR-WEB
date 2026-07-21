@@ -44,6 +44,7 @@
   .hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;}
   @media (max-width:900px){.hero-grid{grid-template-columns:1fr;}}
   .hero-logo-word{font-weight:900;font-size:clamp(48px,7vw,88px);letter-spacing:-0.02em;line-height:0.9;margin-bottom:6px;}
+  .hero-logo{width:clamp(150px,20vw,230px);height:auto;margin-bottom:14px;}
   h1.hero-sub-title{font-weight:700;font-size:clamp(20px,2.4vw,28px);margin-bottom:22px;}
   h1.hero-sub-title span{color:var(--teal);}
   .hero-eyebrow{font-family:var(--font-mono);font-size:13px;color:rgba(255,255,255,0.5);letter-spacing:0.04em;margin-bottom:8px;}
@@ -143,7 +144,7 @@
   <div class="wrap">
     <div class="hero-grid">
       <div>
-        <div class="hero-logo-word">NOR</div>
+        <img class="hero-logo" src="logo_nor_blanco.png" alt="NOR">
         <h1 class="hero-sub-title">Normalizador Operacional <span>RAS</span></h1>
         <div class="hero-eyebrow">Análisis operacional retrospectivo para sistemas de recirculación.</div>
         <p class="hero-desc">NOR correlaciona variables operacionales provenientes del SCADA y genera un análisis semanal del comportamiento del sistema.</p>
